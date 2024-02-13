@@ -1,6 +1,6 @@
 pipeline{
     
-    agent any
+    agent { label "dev-server-label" }
     
     stages{
         stage("code clone"){
